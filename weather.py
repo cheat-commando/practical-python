@@ -1,7 +1,7 @@
 import requests
 
 def get_weather_and_temps():
-    api_key = '245e0a738889ec0817e9fb1e32e7e481'
+    api_key = 'I removed the key before pushing to GitHub'
     city = input("Name a city: ")
 
     url = 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + api_key
